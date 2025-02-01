@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cursed+Timer+ULiL&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <section id="home">
+        <h1 id="homeName">Home</h1>
+        <div id="homeContent">
+          <h1 id="homeScore">0</h1>
+        </div>
+        <div class="buttons">
+          <button onclick="plusOneHome()" id="plusOneBUttonHome">+1</button>
+          <button onclick="plusTwoHome()" id="plusTwoBUttonHome">+2</button>
+          <button onclick="plusThreeHome()" id="plusThreeBUttonHome">+3</button>
+          <button onclick="resetHome()" id="resetHome">R</button>
+        </div>
+      </section>
+
+      <section id="guest">
+        <h1 id="guestName">Guest</h1>
+        <div id="guestContent">
+          <h1 id="guestScore">0</h1>
+        </div>
+        <div class="buttons">
+          <button onclick="plusOneGuest()" id="plusOneBUttonGuest">+1</button>
+          <button onclick="plusTwoGuest()" id="plusTwoBUttonGuest">+2</button>
+          <button onclick="plusThreeGuest()" id="plusThreeBUttonGuest">
+            +3
+          </button>
+          <button onclick="resetGuest()" id="resetGuest">R</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="guestScore.js"></script>
+    <script src="homeScore.js"></script>
+  </body>
+</html>
